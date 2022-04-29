@@ -23,12 +23,9 @@
   
     <script>
       const MAX_IMAGE_SIZE = 1000000
-
-      /* ENTER YOUR ENDPOINT HERE */
-
       const API_ENDPOINT = 'https://uydw2ef2kh.execute-api.us-west-1.amazonaws.com/uploads' // e.g. https://ab1234ab123.execute-api.us-east-1.amazonaws.com/uploads
 
-      new Vue({
+      Vue.createApp({
         el: "#app",
         data: {
           image: '',
